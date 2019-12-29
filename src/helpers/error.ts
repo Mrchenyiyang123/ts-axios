@@ -1,6 +1,7 @@
 import { AxiosRequestConfig, AxiosResponse } from '../types'
 import { resolve } from 'dns'
 
+/* istanbul ignore next */
 export class AxiosError extends Error {
   isAxiosError: boolean
   config: AxiosRequestConfig
